@@ -6,6 +6,6 @@ type Options struct {
 	Database int    `mapstructure:"database,omitempty"`
 }
 
-func NewRedisRunOptions() *Options {
+/*func NewRedisRunOptions() *Options {
 	return &Options{Address: "redis:6379", Database: 1}
-}
+}*/

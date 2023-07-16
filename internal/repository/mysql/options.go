@@ -7,10 +7,10 @@ type Options struct {
 	MaxLifetime       int    `mapstructure:"max_lifetime,omitempty"`
 }
 
-func NewDatabaseOptions() *Options {
+/*func NewDatabaseOptions() *Options {
 	return &Options{
 		MaxIdleConnection: 25,
 		MaxOpenConnection: 100,
 		MaxLifetime:       15,
 	}
-}
+}*/
